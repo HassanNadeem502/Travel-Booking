@@ -1,0 +1,39 @@
+# Travel Booking Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+        <h1><i>Book Your Next Adventure</i></h1>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Travel Booking Form</h2>
+            <form action="#" method="POST">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Travel Agency. All rights reserved.</p>
+    </footer>
+</body>
+</html>
